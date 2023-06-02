@@ -31,6 +31,7 @@ export default function Home() {
           src={"/Picture.png"}
           width={200}
           height={200}
+          alt='Profile_pic'
           >
           </Image>
             <div className='block p-10 leading-6'>
@@ -46,7 +47,7 @@ export default function Home() {
         <div className='grid lg:grid-cols-3 lg:grid-rows-2 w-screen sm:grid-cols-1 sm:grid-rows-4'>
             <div className='block lg:col-span-3 text-center p-10'>
                 <h1 className='text-blue-950 font-semibold'>Skill summary</h1>
-                    <p className='leading-6'>I have a hands-on experience using JavaScript with react where i created some projects with the use of API's.
+                    <p className='leading-6'>I have a hands-on experience using JavaScript with react where i created some projects with the use of API.
                       I also have a particular experience in using Java and MySql where i created a CRUD application for our school activity.
                     </p>
             </div>
